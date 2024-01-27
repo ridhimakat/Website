@@ -10,11 +10,11 @@ body {
   
   h1 {
     font-family: Tahoma, Geneva, sans-serif;
-    color: #ffffff;
+    color: #000000;
   }
   /* Add a black background color to the top navigation */
   .topnav {
-    background-color: #ff0bd6;
+    background-color: #ff0ba6;
     overflow: hidden;
   }
   h2 {
@@ -36,7 +36,7 @@ body {
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #7b00ff;
-    color: purple;
+    color: rgb(255, 255, 255);
   }
   
   /* Style the links inside the navigation bar */
