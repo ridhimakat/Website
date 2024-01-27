@@ -3,6 +3,7 @@
 body {
    background-color: #ff0088;
    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
     font-size: 20px;
     
   }
@@ -64,7 +65,7 @@ body {
   #mySearch {
     width: 100%;
     font-size: 18px;
-    padding: 11px;
+    padding: 5px;
     border: 1px solid #ddd;
   }
   
