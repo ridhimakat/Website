@@ -8,11 +8,11 @@ body {
   
   h1 {
     font-family: Tahoma, Geneva, sans-serif;
-    color: #bf00ff;
+    color: #ff0088;
   }
   /* Add a black background color to the top navigation */
   .topnav {
-    background-color: #f2e8ff;
+    background-color: #ff0bd6;
     overflow: hidden;
   }
   h2 {
