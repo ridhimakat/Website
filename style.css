@@ -4,11 +4,12 @@ body {
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin: 3em;
     font-size: 20px;
+    color: #ff0088
   }
   
   h1 {
     font-family: Tahoma, Geneva, sans-serif;
-    color: #ff0088;
+    color: #ffffff;
   }
   /* Add a black background color to the top navigation */
   .topnav {
