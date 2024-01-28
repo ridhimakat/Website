@@ -20,7 +20,7 @@ body {
   /* Add a black background color to the top navigation */
   .topnav {
     background-color: #ffffff;
-    
+    overflow: hidden;
   }
   h2 {
     font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
@@ -47,7 +47,7 @@ body {
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    display: block;
+    display: box;
     color: #ff0080;
     text-align: center;
     padding: 10px 20px;
