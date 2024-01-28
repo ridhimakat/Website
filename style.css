@@ -20,7 +20,7 @@ body {
   /* Add a black background color to the top navigation */
   .topnav {
     background-color: #ffffff;
-    overflow: hidden;
+    
   }
   h2 {
     font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
