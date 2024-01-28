@@ -16,6 +16,11 @@ body {
     margin: 0; /* Remove default margin */
     padding: 0; 
   }
+
+  .right-align {
+    float: right;
+}
+
   /* Add a black background color to the top navigation */
   .topnav {
     background-color: #ffffff;
