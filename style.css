@@ -21,7 +21,7 @@ body {
     float: right;
 }
 .padded-image {
-  padding: 20px; /* Adjust the padding as needed */
+  padding: 0px; /* Adjust the padding as needed */
 }
 
   /* Add a black background color to the top navigation */
