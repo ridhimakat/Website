@@ -17,13 +17,6 @@ body {
     padding: 0; 
   }
 
-  .right-align {
-    float: right;
-}
-.padded-image {
-  padding: 0px; /* Adjust the padding as needed */
-}
-
   /* Add a black background color to the top navigation */
   .topnav {
     background-color: #ffffff;
