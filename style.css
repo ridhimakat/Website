@@ -4,7 +4,7 @@ body {
    background-color: #ff0088;
    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
    font-size: 20px;
-   margin: 0; /* Remove default margin */
+   margin: 1em; /* Remove default margin */
    padding: 0; 
     
   }
@@ -13,6 +13,8 @@ body {
     font-family: Tahoma, Geneva, sans-serif;
     color: #ffffff;
     font-size:80px;
+    margin: 0; /* Remove default margin */
+    padding: 0; 
   }
   /* Add a black background color to the top navigation */
   .topnav {
