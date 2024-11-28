@@ -188,7 +188,7 @@ a[data-pin-do="embedBoard"] {
     width: 100%; /* Full width for medium screens */
   }
   .pinterest-board iframe {
-    height: 1000; /* Adjust height for smaller tablets */
+    height: 2000; /* Adjust height for smaller tablets */
   }
 }
 
