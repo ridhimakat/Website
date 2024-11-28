@@ -168,7 +168,7 @@ a[data-pin-do="embedBoard"] {
     max-width: 1600px;
   }
   .pinterest-board iframe {
-    height: 80vh;  /* Ensure the iframe doesn't get too tall */
+    height: 1000;  /* Ensure the iframe doesn't get too tall */
   }
 }
 
@@ -178,7 +178,7 @@ a[data-pin-do="embedBoard"] {
     width: 85%; /* Keep a bit of margin */
   }
   .pinterest-board iframe {
-    height: 80vh; /* Take up 80% of the screen height */
+    height: 1000; /* Take up 80% of the screen height */
   }
 }
 
@@ -188,7 +188,7 @@ a[data-pin-do="embedBoard"] {
     width: 100%; /* Full width for medium screens */
   }
   .pinterest-board iframe {
-    height: 75vh; /* Adjust height for smaller tablets */
+    height: 1000; /* Adjust height for smaller tablets */
   }
 }
 
@@ -198,6 +198,6 @@ a[data-pin-do="embedBoard"] {
     width: 100%; /* Full width on small screens */
   }
   .pinterest-board iframe {
-    height: 70vh; /* Smaller height for mobile devices */
+    height: 1000; /* Smaller height for mobile devices */
   }
 }
