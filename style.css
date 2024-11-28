@@ -178,7 +178,7 @@ a[data-pin-do="embedBoard"] {
     width: 85%; /* Keep a bit of margin */
   }
   .pinterest-board iframe {
-    height: 1000; /* Take up 80% of the screen height */
+    height: 80vw; /* Take up 80% of the screen height */
   }
 }
 
