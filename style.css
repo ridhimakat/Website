@@ -134,16 +134,32 @@ body {
   height: 800px; /* Adjust height */
 }
 
-/* Medium screens (tablets, small laptops) */
-@media (max-width: 1200px) {
+/* Very large screens (monitors, >1600px wide) */
+@media (min-width: 1600px) {
+  .pinterest-board iframe {
+    width: 1400px;
+    height: 1000px;
+  }
+}
+
+/* Average laptops (1200px to 1600px wide) */
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .pinterest-board iframe {
+    width: 1100px;
+    height: 800px;
+  }
+}
+
+/* Smaller laptops/tablets (768px to 1199px wide) */
+@media (min-width: 768px) and (max-width: 1199px) {
   .pinterest-board iframe {
     width: 900px;
     height: 700px;
   }
 }
 
-/* Small screens (mobile phones) */
-@media (max-width: 768px) {
+/* Phones (less than 768px wide) */
+@media (max-width: 767px) {
   .pinterest-board iframe {
     width: 600px;
     height: 500px;
