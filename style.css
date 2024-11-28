@@ -142,9 +142,8 @@ body {
 /* Style the Pinterest iframe to adapt to screen sizes */
 .pinterest-board iframe {
   width: 100%;         /* Stretch to fill parent container */
-  height: auto;        /* Maintain aspect ratio */
+  height: 600px;       /* Set a fixed height for consistency */
   border: none;        /* Remove any iframe border */
-  min-height: 600px;   /* Set a minimum height for better display */
 }
 
 /* Responsive sizing for different screens */
@@ -176,3 +175,4 @@ body {
     width: 100%;        /* Full width for small screens */
   }
 }
+
