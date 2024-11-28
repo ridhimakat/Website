@@ -129,18 +129,24 @@ body {
   max-width: 100%;
   margin: auto;
 }
+.pinterest-board iframe {
+  width: 1100px; /* Adjust width */
+  height: 800px; /* Adjust height */
+}
+
+/* Medium screens (tablets, small laptops) */
 @media (max-width: 1200px) {
-  .pinterest-board a {
-    data-pin-board-width: 900;
-    data-pin-scale-height: 700;
-    data-pin-scale-width: 70;
+  .pinterest-board iframe {
+    width: 900px;
+    height: 700px;
   }
 }
+
+/* Small screens (mobile phones) */
 @media (max-width: 768px) {
-  .pinterest-board a {
-    data-pin-board-width: 600;
-    data-pin-scale-height: 500;
-    data-pin-scale-width: 60;
+  .pinterest-board iframe {
+    width: 600px;
+    height: 500px;
   }
 }
   
