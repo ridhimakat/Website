@@ -124,7 +124,12 @@ body {
   #myMenu li a:hover {
     background-color: #eee;
   }
-
+/* Reset margin, padding, and border for body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height */
+}
 /* Full Width Pinterest board container */
 .pinterest-board {
   width: 100%;
