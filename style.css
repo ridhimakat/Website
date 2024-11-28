@@ -132,40 +132,46 @@ body {
   text-align: center;
 }
 
+/* Wrapper for Pinterest embed */
+.pinterest-wrapper {
+  width: 100%;         /* Full width of parent */
+  max-width: 1400px;   /* Set a maximum width for large screens */
+  margin: 0 auto;      /* Center the wrapper */
+}
+
 /* Style the Pinterest iframe to adapt to screen sizes */
 .pinterest-board iframe {
-  width: 100%;          /* Stretch to fill parent container */
-  max-width: 1400px;    /* Set a maximum width */
-  height: auto;         /* Maintain aspect ratio */
-  border: none;         /* Remove any iframe border */
+  width: 100%;         /* Stretch to fill parent container */
+  height: auto;        /* Maintain aspect ratio */
+  border: none;        /* Remove any iframe border */
 }
 
 /* Responsive sizing for different screens */
 
 /* Very large screens (monitors, >1600px wide) */
 @media (min-width: 1600px) {
-  .pinterest-board iframe {
+  .pinterest-wrapper {
     width: 90%;         /* Slight padding for ultra-wide screens */
   }
 }
 
 /* Average laptops (1200px to 1600px wide) */
 @media (min-width: 1200px) and (max-width: 1599px) {
-  .pinterest-board iframe {
+  .pinterest-wrapper {
     width: 90%;         /* Same padding for laptops */
   }
 }
 
 /* Smaller laptops/tablets (768px to 1199px wide) */
 @media (min-width: 768px) and (max-width: 1199px) {
-  .pinterest-board iframe {
+  .pinterest-wrapper {
     width: 95%;         /* Slightly smaller padding */
   }
 }
 
 /* Phones (less than 768px wide) */
 @media (max-width: 767px) {
-  .pinterest-board iframe {
+  .pinterest-wrapper {
     width: 100%;        /* Full width for small screens */
   }
 }
