@@ -147,7 +147,7 @@ a[data-pin-do="embedBoard"] {
   margin: 0 auto;
   display: block;
   box-sizing: border-box; /* Include padding and borders in width/height */
-  overflow: hidden; /* Prevent content overflow */
+   /* Prevent content overflow */
 }
 
 /* Set iframe to take up all available space */
