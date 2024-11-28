@@ -130,20 +130,29 @@ body {
   max-width: 100%;
   margin: auto;
   text-align: center;
+  padding: 20px 0; /* Add space around each Pinterest board */
 }
 
 /* Wrapper for Pinterest embed */
 .pinterest-wrapper {
   width: 100%;         /* Full width of parent */
-  max-width: 1400px;   /* Set a maximum width for large screens */
+  max-width: 1400px;   /* Max width to avoid too wide on large screens */
   margin: 0 auto;      /* Center the wrapper */
 }
 
-/* Style the Pinterest iframe to adapt to screen sizes */
-.pinterest-board iframe {
-  width: 100%;         /* Stretch to fill parent container */
-  height: 600px;       /* Set a fixed height for consistency */
+/* Style the Pinterest embed link to allow the iframe to stretch fully */
+.pinterest-board a {
+  display: block;
+  width: 100%;
+  height: 600px;       /* Increased height for larger boards */
   border: none;        /* Remove any iframe border */
+}
+
+/* Set iframe to full width of the container */
+.pinterest-board iframe {
+  width: 100%;
+  height: 100%;         /* Let iframe take full height of parent */
+  border: none;
 }
 
 /* Responsive sizing for different screens */
@@ -151,21 +160,21 @@ body {
 /* Very large screens (monitors, >1600px wide) */
 @media (min-width: 1600px) {
   .pinterest-wrapper {
-    width: 90%;         /* Slight padding for ultra-wide screens */
+    width: 80%;         /* More padding for ultra-wide screens */
   }
 }
 
 /* Average laptops (1200px to 1600px wide) */
 @media (min-width: 1200px) and (max-width: 1599px) {
   .pinterest-wrapper {
-    width: 90%;         /* Same padding for laptops */
+    width: 85%;         /* Slight padding for laptops */
   }
 }
 
 /* Smaller laptops/tablets (768px to 1199px wide) */
 @media (min-width: 768px) and (max-width: 1199px) {
   .pinterest-wrapper {
-    width: 95%;         /* Slightly smaller padding */
+    width: 95%;         /* Less padding for smaller screens */
   }
 }
 
@@ -174,5 +183,8 @@ body {
   .pinterest-wrapper {
     width: 100%;        /* Full width for small screens */
   }
-}
 
+  .pinterest-board a {
+    height: 400px;      /* Decrease height on mobile for better fit */
+  }
+}
