@@ -131,7 +131,7 @@ a[data-pin-do="embedBoard"] {
   padding: 0;
   display: block;
   width: 100vw;
-  height: 800;
+  height: 1000;
 }
 
 /* Full Width Pinterest board container */
@@ -144,7 +144,7 @@ a[data-pin-do="embedBoard"] {
 /* Set wrapper width and height to 100% of the screen */
 .pinterest-wrapper {
   width: 100vw;
-  height: 800; /* Use full height of the viewport */
+  height: 1000; /* Use full height of the viewport */
   margin: 0 auto;
   display: block;
   box-sizing: border-box; /* Include padding and borders in width/height */
@@ -154,7 +154,7 @@ a[data-pin-do="embedBoard"] {
 /* Set iframe to take up all available space */
 .pinterest-board iframe {
   width: 100vw;
-  height: 800;
+  height: 1000;
   border: none;
   box-sizing: border-box;
 }
