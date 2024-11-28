@@ -124,4 +124,23 @@ body {
   #myMenu li a:hover {
     background-color: #eee;
   }
+
+.pinterest-board {
+  max-width: 100%;
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .pinterest-board a {
+    data-pin-board-width: 900;
+    data-pin-scale-height: 700;
+    data-pin-scale-width: 70;
+  }
+}
+@media (max-width: 768px) {
+  .pinterest-board a {
+    data-pin-board-width: 600;
+    data-pin-scale-height: 500;
+    data-pin-scale-width: 60;
+  }
+}
   
