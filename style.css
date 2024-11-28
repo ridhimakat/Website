@@ -132,6 +132,7 @@ a[data-pin-do="embedBoard"] {
   width: 100%;
   height: 100%;
 }
+
 /* Full Width Pinterest board container */
 .pinterest-board {
   width: 100%;
@@ -144,43 +145,58 @@ a[data-pin-do="embedBoard"] {
   width: 100%;
   height: 100vh; /* Use full height of the viewport */
   margin: 0 auto;
+  display: block;
+  box-sizing: border-box; /* Include padding and borders in width/height */
+  overflow: hidden; /* Prevent content overflow */
 }
 
 /* Set iframe to take up all available space */
 .pinterest-board iframe {
   width: 100%;
-  height: 100%; /* Full height */
+  height: 100%;
   border: none;
+  box-sizing: border-box;
 }
 
 /* Media queries for responsive adjustments */
 
-/* Large screens */
+/* Large screens (Monitors >1600px wide) */
 @media (min-width: 1600px) {
   .pinterest-wrapper {
-    max-width: 100%;
+    width: 90%; /* Ensure proper scaling for ultra-wide screens */
+    max-width: 1600px;
   }
   .pinterest-board iframe {
-    height: 100%;  /* Ensure full screen height */
+    height: 80vh;  /* Ensure the iframe doesn't get too tall */
   }
 }
 
-/* Medium screens (laptops and smaller monitors) */
-@media (max-width: 1600px) {
+/* Medium screens (Laptops/Smaller Monitors 1200px to 1600px wide) */
+@media (min-width: 1200px) and (max-width: 1599px) {
   .pinterest-wrapper {
-    width: 90%; /* Ensure proper scaling on mid-sized screens */
+    width: 85%; /* Keep a bit of margin */
   }
   .pinterest-board iframe {
-    height: 90vh;  /* Take up 90% of the height */
+    height: 80vh; /* Take up 80% of the screen height */
   }
 }
 
-/* Mobile screens */
-@media (max-width: 768px) {
+/* Smaller screens (Tablets 768px to 1199px wide) */
+@media (min-width: 768px) and (max-width: 1199px) {
   .pinterest-wrapper {
-    width: 100%;
+    width: 100%; /* Full width for medium screens */
   }
   .pinterest-board iframe {
-    height: 80vh;  /* Adjust for smaller screens */
+    height: 75vh; /* Adjust height for smaller tablets */
+  }
+}
+
+/* Mobile screens (Less than 768px wide) */
+@media (max-width: 767px) {
+  .pinterest-wrapper {
+    width: 100%; /* Full width on small screens */
+  }
+  .pinterest-board iframe {
+    height: 70vh; /* Smaller height for mobile devices */
   }
 }
