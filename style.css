@@ -124,11 +124,13 @@ body {
   #myMenu li a:hover {
     background-color: #eee;
   }
-/* Reset margin, padding, and border for body and html */
-html, body {
+/* Optional: Remove any padding and margin applied to the Pinterest embed code */
+a[data-pin-do="embedBoard"] {
   margin: 0;
   padding: 0;
-  height: 100%; /* Ensure full height */
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 /* Full Width Pinterest board container */
 .pinterest-board {
